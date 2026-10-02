@@ -1,0 +1,21 @@
+Point Name,Device,IO Type,Description
+SAT,AHU,AI,Supply Air Temperature
+RAT,AHU,AI,Return Air Temperature
+MAT,AHU,AI,Mixed Air Temperature
+Duct Static Pressure,AHU,AI,Measures air pressure in supply duct
+Chilled Water Supply Temp,Chiller,AI,CHW temperature leaving chiller
+Chilled Water Return Temp,Chiller,AI,CHW temperature returning to chiller
+CHW Flow Rate,Chiller,AI,Flow meter reading on CHW loop
+Room Temperature,VAV/FCU,AI,Zone temperature sensor
+Room Humidity,VAV/FCU,AI,Zone relative humidity sensor
+CO2 Level,AHU,AI,Used for demand control ventilation
+Filter Differential Pressure,AHU,BI,Detects clogged filter
+Supply Fan Status,AHU,BI,Run proof via current sensing
+Chiller Run Status,Chiller,BI,Indicates chiller is operating
+Fault Alarm,Chiller,BI,General fault/alarm flag
+Cooling Valve Position,AHU,AO,Modulates chilled water valve 0-100%
+Heating Valve Position,AHU,AO,Modulates heating valve 0-100%
+Fresh Air Damper Position,AHU,AO,Modulates fresh air damper 0-100%
+VFD Speed Command,AHU,AO,Supply fan speed command 0-100%
+Supply Fan Start/Stop,AHU,BO,On/off relay command
+VAV Damper Position,VAV,AO,Modulates zone airflow 0-100%
